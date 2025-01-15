@@ -1,23 +1,34 @@
-* { margin:0px; padding:0px; }
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #013366;
 }
-a:link, 
-a:visited, 
-a:active, 
-a:hover{ color:#9ec224; text-decoration:none; font-weight:bold; }
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    color: #9ec224;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 #container {
     margin: 0 auto;
     width: 966px;
 }
-#smallTopLinks {
+
+#smallTopLinks {z
     height: 20px;
     text-align: right;
     width: 966px;
 }
+
 #banner {
     background-image: url("/wp-content/themes/danmonitoring/images/banner_new.gif");
     background-repeat: no-repeat;
@@ -33,10 +44,19 @@ a:hover{ color:#9ec224; text-decoration:none; font-weight:bold; }
     width: 786px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #013366; margin: 0 0 10px; 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #013366;
+    margin: 0 0 10px;
 }
-p{ margin: 0 0 10px 0; }
+
+p {
+    margin: 0 0 10px 0;
+}
 
 
 #navigation {
@@ -45,19 +65,43 @@ p{ margin: 0 0 10px 0; }
     width: 163px;
 }
 
-#menu ul { padding: 0; list-style: none outside none; }
-#menu ul li h2{ font-size: 13px; padding: 5px 5px 5px 50px; background-image: url("/wp-content/themes/danmonitoring/images/libraryon.png"); margin:0px; color: #013366; }
-#menu ul li ul li{ font-size: 12px; padding: 5px 5px 5px 50px; background-image: url("/wp-content/themes/danmonitoring/images/libraryoff.png"); margin:2px 0; color: #fff; }
-#menu ul li ul li a:link, 
-#menu ul li ul li a:visited, 
-#menu ul li ul li a:active{ color: #fff; }
-#menu ul li ul li a:hover{ text-decoration:underline; font-weight:bold; }
+#menu ul {
+    padding: 0;
+    list-style: none outside none;
+}
+
+#menu ul li h2 {
+    font-size: 13px;
+    padding: 5px 5px 5px 50px;
+    background-image: url("/wp-content/themes/danmonitoring/images/libraryon.png");
+    margin: 0px;
+    color: #013366;
+}
+
+#menu ul li ul li {
+    font-size: 12px;
+    padding: 5px 5px 5px 50px;
+    background-image: url("/wp-content/themes/danmonitoring/images/libraryoff.png");
+    margin: 2px 0;
+    color: #fff;
+}
+
+#menu ul li ul li a:link,
+#menu ul li ul li a:visited,
+#menu ul li ul li a:active {
+    color: #fff;
+}
+
+#menu ul li ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
 
 #footer {
     background-image: url("/wp-content/themes/danmonitoring/images/footerbar.gif");
     background-repeat: no-repeat;
     clear: both;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     height: 148px;
     margin: 0 auto 0;
@@ -65,13 +109,38 @@ p{ margin: 0 0 10px 0; }
     text-align: left;
     width: 966px;
 }
-.alignleft { width:50%; float:left; }
-.alignright { width:50%; float:right; text-align:right; }
-.post { clear:both; }
-.entry{ padding:0 20px 0; }
-.entry ol{ padding:0 0 19px 30px; }
-.codecolorer-container { width:750px !important; min-height: 100px; }
-ul.children { display:none; }
+
+.alignleft {
+    width: 50%;
+    float: left;
+}
+
+.alignright {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.post {
+    clear: both;
+}
+
+.entry {
+    padding: 0 20px 0;
+}
+
+.entry ol {
+    padding: 0 0 19px 30px;
+}
+
+.codecolorer-container {
+    width: 750px !important;
+    min-height: 100px;
+}
+
+ul.children {
+    display: none;
+}
 
 
 .webthumbs img {

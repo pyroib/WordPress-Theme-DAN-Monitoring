@@ -7,12 +7,10 @@
 		<meta name="Robots" content="All" />
 		<meta name="Revisit-After" content="7 days" />
 		<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
-		<link rel="stylesheet" href="/wp-content/themes/danmonitoring/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" type="text/css" media="screen" />
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-<script language="javascript" src="/wp-content/themes/danmonitoring/iblottmenu.js" type="text/javascript"></script>
-<script language="javascript" src="/wp-content/themes/danmonitoring/homepage.js" type="text/javascript"></script>
 
 		<style type="text/css" media="screen">
 		

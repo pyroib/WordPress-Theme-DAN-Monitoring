@@ -1,4 +1,4 @@
-#  danmonitoring.com.au WordPress Themes
+#  danmonitoring.com.au WordPress Theme
 
 A wordpress theme for danmonitoring.com.au
 
@@ -20,7 +20,7 @@ PHP, MySQL
 
 ## Contributing
 
-Projoect no longer taking contributions
+Project no longer taking contributions
 
 ## Authors
 
